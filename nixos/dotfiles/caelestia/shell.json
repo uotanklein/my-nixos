@@ -1,0 +1,12 @@
+{
+  "general": {
+    "apps": {
+      "terminal": [
+        "kitty"
+      ],
+      "explorer": [
+        "dolphin"
+      ]
+    }
+  }
+}
