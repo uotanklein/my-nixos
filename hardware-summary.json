@@ -1,0 +1,29 @@
+{
+  "cpu": "AMD Ryzen 7 7700",
+  "ram": "32 GiB",
+  "gpu": "NVIDIA RTX 5070",
+  "installDiskModel": "Samsung SSD 870 EVO 1TB",
+  "monitors": [
+    {
+      "model": "Samsung S24D332",
+      "position": "left",
+      "port": "HDMI-A-1",
+      "mode": "1920x1080@74.97",
+      "offset": "0x180"
+    },
+    {
+      "model": "MSI G274QPF",
+      "position": "center/main",
+      "port": "DP-2",
+      "mode": "2560x1440@165",
+      "offset": "1920x0"
+    },
+    {
+      "model": "MSI MP275 E2",
+      "position": "right",
+      "port": "DP-1",
+      "mode": "1920x1080@60",
+      "offset": "4480x180"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Private VPN credentials and local backups must never be committed.
+/private/
+*.bak
+*.bak-*
+*.tar
+*.tar.gz
+*.zip
+/result
+/result-*
+/nixos/hardware-configuration.nix
+/nixos/configuration.nix
