@@ -1,0 +1,15 @@
+// US/RU with Super+Space and Alt+Shift; Caps Lock unlocks on press.
+xkb_keymap {
+  xkb_keycodes { include "evdev+aliases(qwerty)" };
+  xkb_types { include "complete" };
+  xkb_compat { include "complete" };
+  xkb_symbols { include "pc+us+ru:2+inet(evdev)+group(win_space_toggle):1+group(win_space_toggle):2+group(alt_shift_toggle)"
+    key <CAPS> {
+      type[Group1] = "ONE_LEVEL",
+      repeat = No,
+      symbols[Group1] = [ Caps_Lock ],
+      actions[Group1] = [ LockMods(modifiers = Lock, unlockOnPress = true) ]
+    };
+  };
+  xkb_geometry { include "pc(pc105)" };
+};
